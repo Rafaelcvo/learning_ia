@@ -17,4 +17,3 @@ response = openai.Completion.create(
   presence_penalty=1
 )
 
-response.prompt

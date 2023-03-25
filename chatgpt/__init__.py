@@ -6,8 +6,8 @@ cfg.read('config.ini')
 key = cfg.get("config", "key")
 openai.api_key = key
 
-# Define the prompt for the model
-prompt = "o chatgpt pode criar um site de forma automatica?"
+prompt = "iphone 11 com um cachorro atendendo"
+
 response = openai.Completion.create(
     engine="text-davinci-003",
     prompt=prompt,
